@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "as-project-all",
+  "name": "as-project-onboarding",
   "compatibility_date": "2026-05-15",
   "observability": {
     "enabled": true

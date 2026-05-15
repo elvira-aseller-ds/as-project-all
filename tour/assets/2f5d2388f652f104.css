@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+@keyframes css-1q3a9c7-antMoveUpIn { 
+  0% { transform: translate3d(0px, -100%, 0px); transform-origin: 0px 0px; opacity: 0; }
+  100% { transform: translate3d(0px, 0px, 0px); transform-origin: 0px 0px; opacity: 1; }
+}

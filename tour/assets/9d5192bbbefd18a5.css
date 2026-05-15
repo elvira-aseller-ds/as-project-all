@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+:where(.css-1q3a9c7).ant-space-compact { display: inline-flex; }
+
+:where(.css-1q3a9c7).ant-space-compact-block { display: flex; width: 100%; }
+
+:where(.css-1q3a9c7).ant-space-compact-vertical { flex-direction: column; }
+
+:where(.css-1q3a9c7).ant-space-compact-rtl { direction: rtl; }

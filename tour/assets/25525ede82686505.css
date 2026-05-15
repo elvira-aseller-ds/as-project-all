@@ -1,0 +1,867 @@
+@charset "utf-8";
+
+:where(.css-119ou95).ant-btn { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 14px; box-sizing: border-box; }
+
+:where(.css-119ou95).ant-btn::before, :where(.css-119ou95).ant-btn::after { box-sizing: border-box; }
+
+:where(.css-119ou95).ant-btn [class^="ant-btn"], :where(.css-119ou95).ant-btn [class*=" ant-btn"] { box-sizing: border-box; }
+
+:where(.css-119ou95).ant-btn [class^="ant-btn"]::before, :where(.css-119ou95).ant-btn [class*=" ant-btn"]::before, :where(.css-119ou95).ant-btn [class^="ant-btn"]::after, :where(.css-119ou95).ant-btn [class*=" ant-btn"]::after { box-sizing: border-box; }
+
+:where(.css-119ou95).ant-btn { outline: none; position: relative; display: inline-flex; gap: 8px; align-items: center; justify-content: center; font-weight: 500; white-space: nowrap; text-align: center; background: transparent; border: 1px solid transparent; cursor: pointer; transition: 0.2s cubic-bezier(0.645, 0.045, 0.355, 1); user-select: none; touch-action: manipulation; color: rgb(0, 16, 41); }
+
+:where(.css-119ou95).ant-btn:disabled > * { pointer-events: none; }
+
+:where(.css-119ou95).ant-btn .ant-btn-icon > svg { display: inline-flex; align-items: center; color: inherit; font-style: normal; line-height: 0; text-align: center; text-transform: none; vertical-align: -0.125em; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; }
+
+:where(.css-119ou95).ant-btn .ant-btn-icon > svg > * { line-height: 1; }
+
+:where(.css-119ou95).ant-btn .ant-btn-icon > svg svg { display: inline-block; }
+
+:where(.css-119ou95).ant-btn > a { color: currentcolor; }
+
+:where(.css-119ou95).ant-btn:not(:disabled):focus-visible { outline: rgb(122, 200, 255) solid 3px; outline-offset: 1px; transition: outline-offset, outline; }
+
+:where(.css-119ou95).ant-btn.ant-btn-two-chinese-chars::first-letter { letter-spacing: 0.34em; }
+
+:where(.css-119ou95).ant-btn.ant-btn-two-chinese-chars > :not(.anticon) { margin-inline-end: -0.34em; letter-spacing: 0.34em; }
+
+:where(.css-119ou95).ant-btn.ant-btn-icon-only { padding-inline: 0px; }
+
+:where(.css-119ou95).ant-btn.ant-btn-icon-only.ant-btn-compact-item { flex: 0 0 auto; }
+
+:where(.css-119ou95).ant-btn.ant-btn-loading { opacity: 0.65; cursor: default; }
+
+:where(.css-119ou95).ant-btn .ant-btn-loading-icon { transition: width 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+:where(.css-119ou95).ant-btn:not(.ant-btn-icon-end) .ant-btn-loading-icon-motion-appear-start, :where(.css-119ou95).ant-btn:not(.ant-btn-icon-end) .ant-btn-loading-icon-motion-enter-start { margin-inline-end: -8px; }
+
+:where(.css-119ou95).ant-btn:not(.ant-btn-icon-end) .ant-btn-loading-icon-motion-appear-active, :where(.css-119ou95).ant-btn:not(.ant-btn-icon-end) .ant-btn-loading-icon-motion-enter-active { margin-inline-end: 0px; }
+
+:where(.css-119ou95).ant-btn:not(.ant-btn-icon-end) .ant-btn-loading-icon-motion-leave-start { margin-inline-end: 0px; }
+
+:where(.css-119ou95).ant-btn:not(.ant-btn-icon-end) .ant-btn-loading-icon-motion-leave-active { margin-inline-end: -8px; }
+
+:where(.css-119ou95).ant-btn-icon-end { flex-direction: row-reverse; }
+
+:where(.css-119ou95).ant-btn-icon-end .ant-btn-loading-icon-motion-appear-start, :where(.css-119ou95).ant-btn-icon-end .ant-btn-loading-icon-motion-enter-start { margin-inline-start: -8px; }
+
+:where(.css-119ou95).ant-btn-icon-end .ant-btn-loading-icon-motion-appear-active, :where(.css-119ou95).ant-btn-icon-end .ant-btn-loading-icon-motion-enter-active { margin-inline-start: 0px; }
+
+:where(.css-119ou95).ant-btn-icon-end .ant-btn-loading-icon-motion-leave-start { margin-inline-start: 0px; }
+
+:where(.css-119ou95).ant-btn-icon-end .ant-btn-loading-icon-motion-leave-active { margin-inline-start: -8px; }
+
+:where(.css-119ou95).ant-btn { font-size: 14px; height: 32px; padding: 0px 15px; border-radius: 16px; }
+
+:where(.css-119ou95).ant-btn.ant-btn-icon-only { width: 32px; }
+
+:where(.css-119ou95).ant-btn.ant-btn-icon-only .anticon { font-size: inherit; }
+
+:where(.css-119ou95).ant-btn.ant-btn-circle.ant-btn { min-width: 32px; padding-inline: 0px; border-radius: 50%; }
+
+:where(.css-119ou95).ant-btn.ant-btn-round.ant-btn { border-radius: 32px; }
+
+:where(.css-119ou95).ant-btn.ant-btn-round.ant-btn:not(.ant-btn-icon-only) { padding-inline: 15px; }
+
+:where(.css-119ou95).ant-btn-sm { font-size: 14px; height: 24px; padding: 0px 7px; border-radius: 8px; }
+
+:where(.css-119ou95).ant-btn-sm.ant-btn-icon-only { width: 24px; }
+
+:where(.css-119ou95).ant-btn-sm.ant-btn-icon-only .anticon { font-size: inherit; }
+
+:where(.css-119ou95).ant-btn.ant-btn-circle.ant-btn-sm { min-width: 24px; padding-inline: 0px; border-radius: 50%; }
+
+:where(.css-119ou95).ant-btn.ant-btn-round.ant-btn-sm { border-radius: 24px; }
+
+:where(.css-119ou95).ant-btn.ant-btn-round.ant-btn-sm:not(.ant-btn-icon-only) { padding-inline: 7px; }
+
+:where(.css-119ou95).ant-btn-lg { font-size: 14px; height: 40px; padding: 0px 15px; border-radius: 16px; }
+
+:where(.css-119ou95).ant-btn-lg.ant-btn-icon-only { width: 40px; }
+
+:where(.css-119ou95).ant-btn-lg.ant-btn-icon-only .anticon { font-size: inherit; }
+
+:where(.css-119ou95).ant-btn.ant-btn-circle.ant-btn-lg { min-width: 40px; padding-inline: 0px; border-radius: 50%; }
+
+:where(.css-119ou95).ant-btn.ant-btn-round.ant-btn-lg { border-radius: 40px; }
+
+:where(.css-119ou95).ant-btn.ant-btn-round.ant-btn-lg:not(.ant-btn-icon-only) { padding-inline: 15px; }
+
+:where(.css-119ou95).ant-btn.ant-btn-block { width: 100%; }
+
+:where(.css-119ou95).ant-btn-color-default { color: rgb(0, 16, 41); box-shadow: rgba(0, 0, 0, 0.02) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(0, 0, 0); }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-default.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 255, 255); background: rgba(0, 0, 0, 0.75); }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { color: rgb(255, 255, 255); background: rgba(0, 0, 0, 0.95); }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-filled { box-shadow: none; background: rgba(0, 0, 0, 0.04); }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-default.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(0, 16, 41); background: rgba(0, 0, 0, 0.06); }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 16, 41); background: rgba(0, 0, 0, 0.15); }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-background-ghost { color: rgb(255, 255, 255); background: transparent; border-color: rgb(255, 255, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover { background: transparent; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active { background: transparent; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-background-ghost:disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); border-color: rgb(217, 217, 217); }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-link { color: rgb(0, 16, 41); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-default.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(41, 151, 255); background: transparent; }
+
+:where(.css-119ou95).ant-btn-color-default.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 98, 217); }
+
+:where(.css-119ou95).ant-btn-color-primary { color: rgb(0, 123, 255); box-shadow: rgba(5, 165, 255, 0.1) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-dashed { border-color: rgb(0, 123, 255); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(41, 151, 255); border-color: rgb(41, 151, 255); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 98, 217); border-color: rgb(0, 98, 217); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-filled { box-shadow: none; background: rgb(230, 246, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(0, 123, 255); background: rgb(163, 220, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 123, 255); background: rgb(122, 200, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-text { color: rgb(0, 123, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(41, 151, 255); background: rgb(230, 246, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 98, 217); background: rgb(122, 200, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-link { color: rgb(0, 123, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(41, 151, 255); background: transparent; }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 98, 217); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-background-ghost { color: rgb(0, 123, 255); background: transparent; border-color: rgb(0, 123, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover { background: transparent; color: rgb(41, 151, 255); border-color: rgb(41, 151, 255); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active { background: transparent; color: rgb(0, 98, 217); border-color: rgb(0, 98, 217); }
+
+:where(.css-119ou95).ant-btn-color-primary.ant-btn-background-ghost:disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); border-color: rgb(217, 217, 217); }
+
+:where(.css-119ou95).ant-btn-color-dangerous { color: rgb(221, 4, 4); box-shadow: rgba(255, 38, 5, 0.06) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(221, 4, 4); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(255, 120, 117); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(217, 54, 62); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-dashed { border-color: rgb(221, 4, 4); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 120, 117); border-color: rgb(255, 163, 158); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(217, 54, 62); border-color: rgb(217, 54, 62); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-filled { box-shadow: none; background: rgb(255, 242, 240); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(221, 4, 4); background: rgb(255, 223, 220); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(221, 4, 4); background: rgb(255, 204, 199); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-text { color: rgb(221, 4, 4); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 120, 117); background: rgb(255, 242, 240); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(255, 120, 117); background: rgb(255, 204, 199); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-link { color: rgb(221, 4, 4); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 120, 117); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(217, 54, 62); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-background-ghost { color: rgb(221, 4, 4); background: transparent; border-color: rgb(221, 4, 4); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover { background: transparent; color: rgb(255, 120, 117); border-color: rgb(255, 120, 117); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active { background: transparent; color: rgb(217, 54, 62); border-color: rgb(217, 54, 62); }
+
+:where(.css-119ou95).ant-btn-color-dangerous.ant-btn-background-ghost:disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); border-color: rgb(217, 217, 217); }
+
+:where(.css-119ou95).ant-btn-color-link.ant-btn-variant-link { color: rgb(0, 123, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-link.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-link.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-link.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(41, 151, 255); }
+
+:where(.css-119ou95).ant-btn-color-link.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 98, 217); }
+
+:where(.css-119ou95).ant-btn-color-link.ant-btn-background-ghost { color: rgb(22, 119, 255); background: transparent; border-color: rgb(22, 119, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-link.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):hover { background: transparent; color: rgb(105, 177, 255); border-color: rgb(105, 177, 255); }
+
+:where(.css-119ou95).ant-btn-color-link.ant-btn-background-ghost:not(:disabled):not(.ant-btn-disabled):active { background: transparent; color: rgb(9, 88, 217); border-color: rgb(9, 88, 217); }
+
+:where(.css-119ou95).ant-btn-color-link.ant-btn-background-ghost:disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); border-color: rgb(217, 217, 217); }
+
+:where(.css-119ou95).ant-btn-color-blue { color: rgb(22, 119, 255); box-shadow: rgba(5, 145, 255, 0.1) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(22, 119, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(64, 150, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(9, 88, 217); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-dashed { border-color: rgb(22, 119, 255); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(64, 150, 255); border-color: rgb(64, 150, 255); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(9, 88, 217); border-color: rgb(9, 88, 217); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-filled { box-shadow: none; background: rgb(230, 244, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(22, 119, 255); background: rgb(186, 224, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(22, 119, 255); background: rgb(145, 202, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-link { color: rgb(22, 119, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(64, 150, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(9, 88, 217); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-text { color: rgb(22, 119, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(64, 150, 255); background: rgb(230, 244, 255); }
+
+:where(.css-119ou95).ant-btn-color-blue.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(9, 88, 217); background: rgb(145, 202, 255); }
+
+:where(.css-119ou95).ant-btn-color-purple { color: rgb(114, 46, 209); box-shadow: rgba(155, 5, 255, 0.06) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(114, 46, 209); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(146, 84, 222); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(83, 29, 171); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-dashed { border-color: rgb(114, 46, 209); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(146, 84, 222); border-color: rgb(146, 84, 222); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(83, 29, 171); border-color: rgb(83, 29, 171); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-filled { box-shadow: none; background: rgb(249, 240, 255); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(114, 46, 209); background: rgb(239, 219, 255); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(114, 46, 209); background: rgb(211, 173, 247); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-link { color: rgb(114, 46, 209); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(146, 84, 222); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(83, 29, 171); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-text { color: rgb(114, 46, 209); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(146, 84, 222); background: rgb(249, 240, 255); }
+
+:where(.css-119ou95).ant-btn-color-purple.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(83, 29, 171); background: rgb(211, 173, 247); }
+
+:where(.css-119ou95).ant-btn-color-cyan { color: rgb(19, 194, 194); box-shadow: rgba(5, 255, 215, 0.1) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(19, 194, 194); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(54, 207, 201); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(8, 151, 156); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-dashed { border-color: rgb(19, 194, 194); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(54, 207, 201); border-color: rgb(54, 207, 201); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(8, 151, 156); border-color: rgb(8, 151, 156); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-filled { box-shadow: none; background: rgb(230, 255, 251); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(19, 194, 194); background: rgb(181, 245, 236); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(19, 194, 194); background: rgb(135, 232, 222); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-link { color: rgb(19, 194, 194); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(54, 207, 201); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(8, 151, 156); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-text { color: rgb(19, 194, 194); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(54, 207, 201); background: rgb(230, 255, 251); }
+
+:where(.css-119ou95).ant-btn-color-cyan.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(8, 151, 156); background: rgb(135, 232, 222); }
+
+:where(.css-119ou95).ant-btn-color-green { color: rgb(82, 196, 26); box-shadow: rgba(142, 255, 30, 0.08) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(82, 196, 26); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(115, 209, 61); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(56, 158, 13); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-dashed { border-color: rgb(82, 196, 26); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(115, 209, 61); border-color: rgb(115, 209, 61); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(56, 158, 13); border-color: rgb(56, 158, 13); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-filled { box-shadow: none; background: rgb(246, 255, 237); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(82, 196, 26); background: rgb(217, 247, 190); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(82, 196, 26); background: rgb(183, 235, 143); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-link { color: rgb(82, 196, 26); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(115, 209, 61); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(56, 158, 13); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-text { color: rgb(82, 196, 26); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-green.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(115, 209, 61); background: rgb(246, 255, 237); }
+
+:where(.css-119ou95).ant-btn-color-green.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(56, 158, 13); background: rgb(183, 235, 143); }
+
+:where(.css-119ou95).ant-btn-color-magenta { color: rgb(235, 47, 150); box-shadow: rgba(255, 5, 105, 0.06) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(235, 47, 150); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(247, 89, 171); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(196, 29, 127); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-dashed { border-color: rgb(235, 47, 150); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(247, 89, 171); border-color: rgb(247, 89, 171); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(196, 29, 127); border-color: rgb(196, 29, 127); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-filled { box-shadow: none; background: rgb(255, 240, 246); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(235, 47, 150); background: rgb(255, 214, 231); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(235, 47, 150); background: rgb(255, 173, 210); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-link { color: rgb(235, 47, 150); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(247, 89, 171); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(196, 29, 127); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-text { color: rgb(235, 47, 150); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(247, 89, 171); background: rgb(255, 240, 246); }
+
+:where(.css-119ou95).ant-btn-color-magenta.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(196, 29, 127); background: rgb(255, 173, 210); }
+
+:where(.css-119ou95).ant-btn-color-pink { color: rgb(235, 47, 150); box-shadow: rgba(255, 5, 105, 0.06) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(235, 47, 150); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(247, 89, 171); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(196, 29, 127); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-dashed { border-color: rgb(235, 47, 150); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(247, 89, 171); border-color: rgb(247, 89, 171); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(196, 29, 127); border-color: rgb(196, 29, 127); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-filled { box-shadow: none; background: rgb(255, 240, 246); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(235, 47, 150); background: rgb(255, 214, 231); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(235, 47, 150); background: rgb(255, 173, 210); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-link { color: rgb(235, 47, 150); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(247, 89, 171); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(196, 29, 127); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-text { color: rgb(235, 47, 150); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(247, 89, 171); background: rgb(255, 240, 246); }
+
+:where(.css-119ou95).ant-btn-color-pink.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(196, 29, 127); background: rgb(255, 173, 210); }
+
+:where(.css-119ou95).ant-btn-color-red { color: rgb(245, 34, 45); box-shadow: rgba(255, 22, 5, 0.06) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(245, 34, 45); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(255, 77, 79); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(207, 19, 34); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-dashed { border-color: rgb(245, 34, 45); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 77, 79); border-color: rgb(255, 77, 79); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(207, 19, 34); border-color: rgb(207, 19, 34); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-filled { box-shadow: none; background: rgb(255, 241, 240); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(245, 34, 45); background: rgb(255, 204, 199); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(245, 34, 45); background: rgb(255, 163, 158); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-link { color: rgb(245, 34, 45); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 77, 79); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(207, 19, 34); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-text { color: rgb(245, 34, 45); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-red.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 77, 79); background: rgb(255, 241, 240); }
+
+:where(.css-119ou95).ant-btn-color-red.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(207, 19, 34); background: rgb(255, 163, 158); }
+
+:where(.css-119ou95).ant-btn-color-orange { color: rgb(250, 140, 22); box-shadow: rgba(255, 175, 5, 0.1) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(250, 140, 22); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(255, 169, 64); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(212, 107, 8); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-dashed { border-color: rgb(250, 140, 22); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 169, 64); border-color: rgb(255, 169, 64); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 107, 8); border-color: rgb(212, 107, 8); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-filled { box-shadow: none; background: rgb(255, 247, 230); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(250, 140, 22); background: rgb(255, 231, 186); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(250, 140, 22); background: rgb(255, 213, 145); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-link { color: rgb(250, 140, 22); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 169, 64); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 107, 8); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-text { color: rgb(250, 140, 22); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 169, 64); background: rgb(255, 247, 230); }
+
+:where(.css-119ou95).ant-btn-color-orange.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 107, 8); background: rgb(255, 213, 145); }
+
+:where(.css-119ou95).ant-btn-color-yellow { color: rgb(250, 219, 20); box-shadow: rgba(245, 255, 5, 0.1) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(250, 219, 20); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(255, 236, 61); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(212, 177, 6); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-dashed { border-color: rgb(250, 219, 20); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 236, 61); border-color: rgb(255, 236, 61); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 177, 6); border-color: rgb(212, 177, 6); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-filled { box-shadow: none; background: rgb(254, 255, 230); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(250, 219, 20); background: rgb(255, 255, 184); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(250, 219, 20); background: rgb(255, 251, 143); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-link { color: rgb(250, 219, 20); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 236, 61); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 177, 6); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-text { color: rgb(250, 219, 20); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 236, 61); background: rgb(254, 255, 230); }
+
+:where(.css-119ou95).ant-btn-color-yellow.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 177, 6); background: rgb(255, 251, 143); }
+
+:where(.css-119ou95).ant-btn-color-volcano { color: rgb(250, 84, 28); box-shadow: rgba(255, 125, 25, 0.1) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(250, 84, 28); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(255, 122, 69); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(212, 56, 13); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-dashed { border-color: rgb(250, 84, 28); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 122, 69); border-color: rgb(255, 122, 69); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 56, 13); border-color: rgb(212, 56, 13); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-filled { box-shadow: none; background: rgb(255, 242, 232); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(250, 84, 28); background: rgb(255, 216, 191); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(250, 84, 28); background: rgb(255, 187, 150); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-link { color: rgb(250, 84, 28); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 122, 69); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 56, 13); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-text { color: rgb(250, 84, 28); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 122, 69); background: rgb(255, 242, 232); }
+
+:where(.css-119ou95).ant-btn-color-volcano.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 56, 13); background: rgb(255, 187, 150); }
+
+:where(.css-119ou95).ant-btn-color-geekblue { color: rgb(47, 84, 235); box-shadow: rgba(5, 88, 255, 0.06) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(47, 84, 235); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(89, 126, 247); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(29, 57, 196); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-dashed { border-color: rgb(47, 84, 235); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(89, 126, 247); border-color: rgb(89, 126, 247); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(29, 57, 196); border-color: rgb(29, 57, 196); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-filled { box-shadow: none; background: rgb(240, 245, 255); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(47, 84, 235); background: rgb(214, 228, 255); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(47, 84, 235); background: rgb(173, 198, 255); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-link { color: rgb(47, 84, 235); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(89, 126, 247); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(29, 57, 196); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-text { color: rgb(47, 84, 235); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(89, 126, 247); background: rgb(240, 245, 255); }
+
+:where(.css-119ou95).ant-btn-color-geekblue.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(29, 57, 196); background: rgb(173, 198, 255); }
+
+:where(.css-119ou95).ant-btn-color-lime { color: rgb(160, 217, 17); box-shadow: rgba(225, 255, 5, 0.1) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(160, 217, 17); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(186, 230, 55); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(124, 179, 5); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-dashed { border-color: rgb(160, 217, 17); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(186, 230, 55); border-color: rgb(186, 230, 55); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(124, 179, 5); border-color: rgb(124, 179, 5); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-filled { box-shadow: none; background: rgb(252, 255, 230); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(160, 217, 17); background: rgb(244, 255, 184); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(160, 217, 17); background: rgb(234, 255, 143); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-link { color: rgb(160, 217, 17); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(186, 230, 55); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(124, 179, 5); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-text { color: rgb(160, 217, 17); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(186, 230, 55); background: rgb(252, 255, 230); }
+
+:where(.css-119ou95).ant-btn-color-lime.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(124, 179, 5); background: rgb(234, 255, 143); }
+
+:where(.css-119ou95).ant-btn-color-gold { color: rgb(250, 173, 20); box-shadow: rgba(255, 215, 5, 0.1) 0px 0px 0px; }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(250, 173, 20); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(255, 197, 61); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(212, 136, 6); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-dashed { border-color: rgb(250, 173, 20); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 197, 61); border-color: rgb(255, 197, 61); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 136, 6); border-color: rgb(212, 136, 6); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-dashed { border-style: dashed; }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-filled { box-shadow: none; background: rgb(255, 251, 230); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-filled:disabled, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-filled.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(250, 173, 20); background: rgb(255, 241, 184); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-filled:not(:disabled):not(.ant-btn-disabled):active { color: rgb(250, 173, 20); background: rgb(255, 229, 143); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-link { color: rgb(250, 173, 20); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 197, 61); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 136, 6); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-text { color: rgb(250, 173, 20); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(255, 197, 61); background: rgb(255, 251, 230); }
+
+:where(.css-119ou95).ant-btn-color-gold.ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(212, 136, 6); background: rgb(255, 229, 143); }
+
+:where(.css-119ou95).ant-btn-variant-outlined, :where(.css-119ou95).ant-btn-variant-dashed { border-color: rgb(217, 217, 217); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-variant-outlined:disabled, :where(.css-119ou95).ant-btn-variant-dashed:disabled, :where(.css-119ou95).ant-btn-variant-outlined.ant-btn-disabled, :where(.css-119ou95).ant-btn-variant-dashed.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):hover, :where(.css-119ou95).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(41, 151, 255); border-color: rgb(41, 151, 255); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-variant-outlined:not(:disabled):not(.ant-btn-disabled):active, :where(.css-119ou95).ant-btn-variant-dashed:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 98, 217); border-color: rgb(0, 98, 217); background: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-variant-text { color: rgb(0, 16, 41); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-variant-text:disabled, :where(.css-119ou95).ant-btn-variant-text.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(0, 16, 41); background: rgba(0, 0, 0, 0.04); }
+
+:where(.css-119ou95).ant-btn-variant-text:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 16, 41); background: rgba(0, 0, 0, 0.15); }
+
+:where(.css-119ou95).ant-btn-variant-solid { color: rgb(255, 255, 255); background: rgb(0, 123, 255); }
+
+:where(.css-119ou95).ant-btn-variant-solid:disabled, :where(.css-119ou95).ant-btn-variant-solid.ant-btn-disabled { cursor: not-allowed; border-color: rgb(217, 217, 217); color: rgba(0, 0, 0, 0.25); background: rgb(245, 245, 245); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):hover { background: rgb(41, 151, 255); color: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-variant-solid:not(:disabled):not(.ant-btn-disabled):active { background: rgb(0, 98, 217); color: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-btn-variant-link { color: rgb(0, 123, 255); box-shadow: none; }
+
+:where(.css-119ou95).ant-btn-variant-link:disabled, :where(.css-119ou95).ant-btn-variant-link.ant-btn-disabled { cursor: not-allowed; color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):hover { color: rgb(41, 151, 255); background: transparent; }
+
+:where(.css-119ou95).ant-btn-variant-link:not(:disabled):not(.ant-btn-disabled):active { color: rgb(0, 98, 217); }
+
+:where(.css-119ou95).ant-btn-group { position: relative; display: inline-flex; }
+
+:where(.css-119ou95).ant-btn-group > span:not(:last-child), :where(.css-119ou95).ant-btn-group > .ant-btn:not(:last-child), :where(.css-119ou95).ant-btn-group > span:not(:last-child) > .ant-btn, :where(.css-119ou95).ant-btn-group > .ant-btn:not(:last-child) > .ant-btn { border-start-end-radius: 0px; border-end-end-radius: 0px; }
+
+:where(.css-119ou95).ant-btn-group > span:not(:first-child), :where(.css-119ou95).ant-btn-group > .ant-btn:not(:first-child) { margin-inline-start: -1px; }
+
+:where(.css-119ou95).ant-btn-group > span:not(:first-child), :where(.css-119ou95).ant-btn-group > .ant-btn:not(:first-child), :where(.css-119ou95).ant-btn-group > span:not(:first-child) > .ant-btn, :where(.css-119ou95).ant-btn-group > .ant-btn:not(:first-child) > .ant-btn { border-start-start-radius: 0px; border-end-start-radius: 0px; }
+
+:where(.css-119ou95).ant-btn-group .ant-btn { position: relative; z-index: 1; }
+
+:where(.css-119ou95).ant-btn-group .ant-btn:hover, :where(.css-119ou95).ant-btn-group .ant-btn:focus, :where(.css-119ou95).ant-btn-group .ant-btn:active { z-index: 2; }
+
+:where(.css-119ou95).ant-btn-group .ant-btn[disabled] { z-index: 0; }
+
+:where(.css-119ou95).ant-btn-group .ant-btn-icon-only { font-size: 14px; }
+
+:where(.css-119ou95).ant-btn-group > span:not(:last-child):not(:disabled), :where(.css-119ou95).ant-btn-group > .ant-btn-primary:not(:last-child):not(:disabled), :where(.css-119ou95).ant-btn-group > span:not(:last-child) > .ant-btn-primary:not(:disabled), :where(.css-119ou95).ant-btn-group > .ant-btn-primary:not(:last-child) > .ant-btn-primary:not(:disabled) { border-inline-end-color: rgb(41, 151, 255); }
+
+:where(.css-119ou95).ant-btn-group > span:not(:first-child):not(:disabled), :where(.css-119ou95).ant-btn-group > .ant-btn-primary:not(:first-child):not(:disabled), :where(.css-119ou95).ant-btn-group > span:not(:first-child) > .ant-btn-primary:not(:disabled), :where(.css-119ou95).ant-btn-group > .ant-btn-primary:not(:first-child) > .ant-btn-primary:not(:disabled) { border-inline-start-color: rgb(41, 151, 255); }
+
+:where(.css-119ou95).ant-btn-group > span:not(:last-child):not(:disabled), :where(.css-119ou95).ant-btn-group > .ant-btn-danger:not(:last-child):not(:disabled), :where(.css-119ou95).ant-btn-group > span:not(:last-child) > .ant-btn-danger:not(:disabled), :where(.css-119ou95).ant-btn-group > .ant-btn-danger:not(:last-child) > .ant-btn-danger:not(:disabled) { border-inline-end-color: rgb(255, 120, 117); }
+
+:where(.css-119ou95).ant-btn-group > span:not(:first-child):not(:disabled), :where(.css-119ou95).ant-btn-group > .ant-btn-danger:not(:first-child):not(:disabled), :where(.css-119ou95).ant-btn-group > span:not(:first-child) > .ant-btn-danger:not(:disabled), :where(.css-119ou95).ant-btn-group > .ant-btn-danger:not(:first-child) > .ant-btn-danger:not(:disabled) { border-inline-start-color: rgb(255, 120, 117); }

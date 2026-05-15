@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+:where(.css-1q3a9c7).ant-wave { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 14px; box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-wave::before, :where(.css-1q3a9c7).ant-wave::after { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-wave [class^="ant-wave"], :where(.css-1q3a9c7).ant-wave [class*=" ant-wave"] { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-wave [class^="ant-wave"]::before, :where(.css-1q3a9c7).ant-wave [class*=" ant-wave"]::before, :where(.css-1q3a9c7).ant-wave [class^="ant-wave"]::after, :where(.css-1q3a9c7).ant-wave [class*=" ant-wave"]::after { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-wave { position: absolute; background: transparent; pointer-events: none; box-sizing: border-box; color: var(--wave-color, #448cc0); box-shadow: currentcolor 0px 0px 0px 0px; opacity: 0.2; }
+
+:where(.css-1q3a9c7).ant-wave.wave-motion-appear { transition: box-shadow 0.4s cubic-bezier(0.08, 0.82, 0.17, 1), opacity 2s cubic-bezier(0.08, 0.82, 0.17, 1); }
+
+:where(.css-1q3a9c7).ant-wave.wave-motion-appear-active { box-shadow: currentcolor 0px 0px 0px 6px; opacity: 0; }
+
+:where(.css-1q3a9c7).ant-wave.wave-motion-appear.wave-quick { transition: box-shadow 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }

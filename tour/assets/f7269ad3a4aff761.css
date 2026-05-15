@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+:where(.css-119ou95).ant-popconfirm { z-index: 1060; }
+
+:where(.css-119ou95).ant-popconfirm.ant-popover { font-size: 14px; }
+
+:where(.css-119ou95).ant-popconfirm .ant-popconfirm-message { margin-bottom: 8px; display: flex; flex-wrap: nowrap; align-items: start; }
+
+:where(.css-119ou95).ant-popconfirm .ant-popconfirm-message > .ant-popconfirm-message-icon .anticon { color: rgb(250, 173, 20); font-size: 14px; line-height: 1; margin-inline-end: 8px; }
+
+:where(.css-119ou95).ant-popconfirm .ant-popconfirm-message .ant-popconfirm-title { font-weight: 600; color: rgb(0, 16, 41); }
+
+:where(.css-119ou95).ant-popconfirm .ant-popconfirm-message .ant-popconfirm-title:only-child { font-weight: normal; }
+
+:where(.css-119ou95).ant-popconfirm .ant-popconfirm-message .ant-popconfirm-description { margin-top: 4px; color: rgb(0, 16, 41); }
+
+:where(.css-119ou95).ant-popconfirm .ant-popconfirm-buttons { text-align: end; white-space: nowrap; }
+
+:where(.css-119ou95).ant-popconfirm .ant-popconfirm-buttons button { margin-inline-start: 8px; }

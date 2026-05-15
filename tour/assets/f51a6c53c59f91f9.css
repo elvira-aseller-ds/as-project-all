@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+#index_crossLine__2WHMH { position: fixed; height: 100%; width: 100%; z-index: 2147483645; }
+
+#index_crossLine__2WHMH::before { border-width: medium 1px 1px medium; border-style: none solid solid none; border-color: currentcolor red red currentcolor; border-image: initial; content: ""; height: 100%; position: absolute; width: 100%; z-index: 2147483645; left: -100%; top: -100%; }
+
+#index_crossLine__2WHMH::after { border-width: 1px medium medium 1px; border-style: solid none none solid; border-color: red currentcolor currentcolor red; border-image: initial; content: ""; height: 100%; position: absolute; width: 100%; z-index: 2147483645; left: 0px; top: 0px; }
+
+#index_selectArea__2G3Z3 { border: 1px solid red; position: fixed; z-index: 2147483645; }

@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+:where(.css-119ou95).ant-badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 14px; box-sizing: border-box; }
+
+:where(.css-119ou95).ant-badge::before, :where(.css-119ou95).ant-badge::after { box-sizing: border-box; }
+
+:where(.css-119ou95).ant-badge [class^="ant-badge"], :where(.css-119ou95).ant-badge [class*=" ant-badge"] { box-sizing: border-box; }
+
+:where(.css-119ou95).ant-badge [class^="ant-badge"]::before, :where(.css-119ou95).ant-badge [class*=" ant-badge"]::before, :where(.css-119ou95).ant-badge [class^="ant-badge"]::after, :where(.css-119ou95).ant-badge [class*=" ant-badge"]::after { box-sizing: border-box; }
+
+:where(.css-119ou95).ant-badge { box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(0, 16, 41); font-size: 14px; line-height: 1; list-style: none; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; position: relative; display: inline-block; width: fit-content; }
+
+:where(.css-119ou95).ant-badge .ant-badge-count { display: inline-flex; justify-content: center; z-index: auto; min-width: 20px; height: 20px; color: rgb(255, 255, 255); font-weight: normal; font-size: 12px; line-height: 20px; white-space: nowrap; text-align: center; background: rgb(221, 4, 4); border-radius: 10px; box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px; transition: background 0.2s; }
+
+:where(.css-119ou95).ant-badge .ant-badge-count a { color: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-badge .ant-badge-count a:hover { color: rgb(255, 255, 255); }
+
+a:hover :where(.css-119ou95).ant-badge .ant-badge-count { background: rgb(255, 120, 117); }
+
+:where(.css-119ou95).ant-badge .ant-badge-count-sm { min-width: 14px; height: 14px; font-size: 12px; line-height: 14px; border-radius: 7px; }
+
+:where(.css-119ou95).ant-badge .ant-badge-multiple-words { padding: 0px 8px; }
+
+:where(.css-119ou95).ant-badge .ant-badge-multiple-words bdi { unicode-bidi: plaintext; }
+
+:where(.css-119ou95).ant-badge .ant-badge-dot { z-index: auto; width: 6px; min-width: 6px; height: 6px; background: rgb(221, 4, 4); border-radius: 100%; box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px; }
+
+:where(.css-119ou95).ant-badge .ant-badge-count, :where(.css-119ou95).ant-badge .ant-badge-dot, :where(.css-119ou95).ant-badge .ant-scroll-number-custom-component { position: absolute; top: 0px; inset-inline-end: 0px; transform: translate(50%, -50%); transform-origin: 100% 0%; }
+
+:where(.css-119ou95).ant-badge .ant-badge-count.anticon-spin, :where(.css-119ou95).ant-badge .ant-badge-dot.anticon-spin, :where(.css-119ou95).ant-badge .ant-scroll-number-custom-component.anticon-spin { animation-name: css-119ou95-antBadgeLoadingCircle; animation-duration: 1s; animation-iteration-count: infinite; animation-timing-function: linear; }
+
+:where(.css-119ou95).ant-badge.ant-badge-status { line-height: inherit; vertical-align: baseline; }
+
+:where(.css-119ou95).ant-badge.ant-badge-status .ant-badge-status-dot { position: relative; top: -1px; display: inline-block; width: 6px; height: 6px; vertical-align: middle; border-radius: 50%; }
+
+:where(.css-119ou95).ant-badge.ant-badge-status .ant-badge-status-success { background-color: rgb(82, 196, 26); }
+
+:where(.css-119ou95).ant-badge.ant-badge-status .ant-badge-status-processing { overflow: visible; color: rgb(22, 119, 255); background-color: rgb(22, 119, 255); border-color: currentcolor; }
+
+:where(.css-119ou95).ant-badge.ant-badge-status .ant-badge-status-processing::after { position: absolute; top: 0px; inset-inline-start: 0px; width: 100%; height: 100%; border-width: 1px; border-style: solid; border-color: inherit; border-radius: 50%; animation-name: css-119ou95-antStatusProcessing; animation-duration: 1.2s; animation-iteration-count: infinite; animation-timing-function: ease-in-out; content: ""; }
+
+:where(.css-119ou95).ant-badge.ant-badge-status .ant-badge-status-default { background-color: rgba(0, 0, 0, 0.25); }
+
+:where(.css-119ou95).ant-badge.ant-badge-status .ant-badge-status-error { background-color: rgb(221, 4, 4); }
+
+:where(.css-119ou95).ant-badge.ant-badge-status .ant-badge-status-warning { background-color: rgb(250, 173, 20); }
+
+:where(.css-119ou95).ant-badge.ant-badge-status .ant-badge-status-text { margin-inline-start: 8px; color: rgb(0, 16, 41); font-size: 14px; }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-blue { background: rgb(22, 119, 255); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-blue:not(.ant-badge-count) { color: rgb(22, 119, 255); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-blue { background: rgb(22, 119, 255); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-purple { background: rgb(114, 46, 209); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-purple:not(.ant-badge-count) { color: rgb(114, 46, 209); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-purple { background: rgb(114, 46, 209); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-cyan { background: rgb(19, 194, 194); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-cyan:not(.ant-badge-count) { color: rgb(19, 194, 194); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-cyan { background: rgb(19, 194, 194); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-green { background: rgb(82, 196, 26); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-green:not(.ant-badge-count) { color: rgb(82, 196, 26); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-green { background: rgb(82, 196, 26); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-magenta { background: rgb(235, 47, 150); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-magenta:not(.ant-badge-count) { color: rgb(235, 47, 150); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-magenta { background: rgb(235, 47, 150); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-pink { background: rgb(235, 47, 150); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-pink:not(.ant-badge-count) { color: rgb(235, 47, 150); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-pink { background: rgb(235, 47, 150); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-red { background: rgb(245, 34, 45); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-red:not(.ant-badge-count) { color: rgb(245, 34, 45); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-red { background: rgb(245, 34, 45); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-orange { background: rgb(250, 140, 22); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-orange:not(.ant-badge-count) { color: rgb(250, 140, 22); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-orange { background: rgb(250, 140, 22); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-yellow { background: rgb(250, 219, 20); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-yellow:not(.ant-badge-count) { color: rgb(250, 219, 20); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-yellow { background: rgb(250, 219, 20); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-volcano { background: rgb(250, 84, 28); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-volcano:not(.ant-badge-count) { color: rgb(250, 84, 28); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-volcano { background: rgb(250, 84, 28); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-geekblue { background: rgb(47, 84, 235); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-geekblue:not(.ant-badge-count) { color: rgb(47, 84, 235); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-geekblue { background: rgb(47, 84, 235); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-lime { background: rgb(160, 217, 17); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-lime:not(.ant-badge-count) { color: rgb(160, 217, 17); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-lime { background: rgb(160, 217, 17); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-gold { background: rgb(250, 173, 20); }
+
+:where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-gold:not(.ant-badge-count) { color: rgb(250, 173, 20); }
+
+a:hover :where(.css-119ou95).ant-badge.ant-badge .ant-badge-color-gold { background: rgb(250, 173, 20); }
+
+:where(.css-119ou95).ant-badge .ant-badge-zoom-appear, :where(.css-119ou95).ant-badge .ant-badge-zoom-enter { animation-name: css-119ou95-antZoomBadgeIn; animation-duration: 0.3s; animation-timing-function: cubic-bezier(0.12, 0.4, 0.29, 1.46); animation-fill-mode: both; }
+
+:where(.css-119ou95).ant-badge .ant-badge-zoom-leave { animation-name: css-119ou95-antZoomBadgeOut; animation-duration: 0.3s; animation-timing-function: cubic-bezier(0.12, 0.4, 0.29, 1.46); animation-fill-mode: both; }
+
+:where(.css-119ou95).ant-badge.ant-badge-not-a-wrapper .ant-badge-zoom-appear, :where(.css-119ou95).ant-badge.ant-badge-not-a-wrapper .ant-badge-zoom-enter { animation-name: css-119ou95-antNoWrapperZoomBadgeIn; animation-duration: 0.3s; animation-timing-function: cubic-bezier(0.12, 0.4, 0.29, 1.46); }
+
+:where(.css-119ou95).ant-badge.ant-badge-not-a-wrapper .ant-badge-zoom-leave { animation-name: css-119ou95-antNoWrapperZoomBadgeOut; animation-duration: 0.3s; animation-timing-function: cubic-bezier(0.12, 0.4, 0.29, 1.46); }
+
+:where(.css-119ou95).ant-badge.ant-badge-not-a-wrapper:not(.ant-badge-status) { vertical-align: middle; }
+
+:where(.css-119ou95).ant-badge.ant-badge-not-a-wrapper .ant-scroll-number-custom-component, :where(.css-119ou95).ant-badge.ant-badge-not-a-wrapper .ant-badge-count { transform: none; }
+
+:where(.css-119ou95).ant-badge.ant-badge-not-a-wrapper .ant-scroll-number-custom-component, :where(.css-119ou95).ant-badge.ant-badge-not-a-wrapper .ant-scroll-number { position: relative; top: auto; display: block; transform-origin: 50% 50%; }
+
+:where(.css-119ou95).ant-badge .ant-scroll-number { overflow: hidden; transition: 0.2s cubic-bezier(0.12, 0.4, 0.29, 1.46); }
+
+:where(.css-119ou95).ant-badge .ant-scroll-number .ant-scroll-number-only { position: relative; display: inline-block; height: 20px; transition: 0.3s cubic-bezier(0.12, 0.4, 0.29, 1.46); transform-style: preserve-3d; backface-visibility: hidden; }
+
+:where(.css-119ou95).ant-badge .ant-scroll-number .ant-scroll-number-only > p.ant-scroll-number-only-unit { height: 20px; margin: 0px; transform-style: preserve-3d; backface-visibility: hidden; }
+
+:where(.css-119ou95).ant-badge .ant-scroll-number .ant-scroll-number-symbol { vertical-align: top; }
+
+:where(.css-119ou95).ant-badge-rtl { direction: rtl; }
+
+:where(.css-119ou95).ant-badge-rtl .ant-badge-count, :where(.css-119ou95).ant-badge-rtl .ant-badge-dot, :where(.css-119ou95).ant-badge-rtl .ant-scroll-number-custom-component { transform: translate(-50%, -50%); }

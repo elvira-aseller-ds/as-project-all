@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.highlight-text { color: rgb(221, 4, 4); }
+
+.tableWrapper { flex: 1 1 0%; overflow: auto; width: 100%; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; cursor: pointer; transition: 0.3s; }
+
+::-webkit-scrollbar-thumb { border-radius: 8px; background-color: rgb(143, 143, 143); transition: 0.3s; }
+
+::-webkit-scrollbar-thumb:hover { background-color: rgb(89, 89, 89); }
+
+::-webkit-scrollbar-track { border-radius: 8px; background-color: rgba(224, 224, 224, 0.65); border: rgb(217, 217, 217); }
+
+::-webkit-scrollbar-corner { background-color: transparent !important; }
+
+.MuiDataGrid-menuIcon, .MuiDataGrid-iconButtonContainer { visibility: visible !important; }
+
+.MuiDataGrid-main { border-radius: 0px 0px 20px 20px; }
+
+.MuiDataGrid-main > div:nth-of-type(3) { display: none; }
+
+.MuiDataGrid-pinnedColumnHeaders { height: 100%; display: flex; -webkit-box-pack: center; justify-content: center; }
+
+.MuiList-root { background-color: rgb(255, 255, 255); }
+
+.MuiDataGrid-columnSeparator--sideRight { right: -3px !important; }
+
+.MuiDataGrid-columnSeparator--sideLeft { left: -3px !important; }
+
+.MuiDataGrid-columnHeader { padding: 0px 5px !important; height: 40px !important; }
+
+.MuiDataGrid-columnHeaderCheckbox .MuiDataGrid-columnHeaderDraggableContainer .MuiDataGrid-columnHeaderTitleContainer { padding-right: 0px !important; }
+
+.MuiDataGrid-columnHeaderTitleContainerContent { width: 100%; }
+
+.MuiDataGrid-columnHeader[data-field="__check__"] .MuiDataGrid-columnSeparator { display: none !important; }
+
+.MuiTablePagination-input { border-radius: 100px !important; margin: 0px 10px !important; width: 60px !important; height: 30px !important; }
+
+.MuiTablePagination-actions { display: flex; gap: 5px; margin-left: 10px !important; }
+
+.MuiTablePagination-actions button { padding: 0px !important; }
+
+.MuiCheckbox-root { padding: 0px !important; }
+
+.MuiPopper-root { z-index: 7 !important; }
+
+.MuiPopover-root, .MuiMenu-root, .MuiModal-root { z-index: 7 !important; }
+
+.rc-virtual-list-scrollbar, .ant-tree-list-scrollbar { border-radius: 8px; background-color: rgba(224, 224, 224, 0.65) !important; border: rgb(217, 217, 217) !important; }
+
+.rc-virtual-list-scrollbar-thumb, .ant-tree-list-scrollbar-thumb { border-radius: 8px; transition: 0.3s; background-color: rgb(143, 143, 143) !important; }
+
+.rc-virtual-list-scrollbar-thumb:hover, .ant-tree-list-scrollbar-thumb:hover { background-color: rgb(89, 89, 89) !important; }

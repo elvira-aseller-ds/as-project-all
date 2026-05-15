@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+:where(.ag-theme-columnDropStyle-2) {
+  & .ag-column-drop-vertical-empty-message { align-items: center; border-top-style: ; border-top-width: ; border-right-style: ; border-right-width: ; border-bottom-style: ; border-bottom-width: ; border-left-style: ; border-left-width: ; border-image-source: ; border-image-slice: ; border-image-width: ; border-image-outset: ; border-image-repeat: ; border-color: var(--ag-border-color); display: flex; inset: 0px; justify-content: center; margin: calc(var(--ag-spacing)*1.5) calc(var(--ag-spacing)*2); overflow: hidden; padding: calc(var(--ag-spacing)*2); position: absolute; }
+}

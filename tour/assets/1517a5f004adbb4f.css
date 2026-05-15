@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.src-service-contentScript-browser-contentScript-contentScript__toolFrame--2uksu { position: fixed !important; right: 0px !important; top: 0px !important; width: 100% !important; height: 100% !important; z-index: 2147483646 !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; border-image: initial !important; }
+
+.src-service-contentScript-browser-contentScript-contentScript__web-clipper-loading-box--fHTwh { position: fixed; right: 0px; top: 0px; width: 100%; height: 100%; z-index: 2147483646; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; }
+
+.src-service-contentScript-browser-contentScript-contentScript__web-clipper-loading-box--fHTwh .web-clipper-loading { position: fixed; right: 10px; top: 10px; box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 12px 0px; background: white; width: 324px; height: 150px; display: flex; align-items: center; justify-content: center; }
+
+.src-service-contentScript-browser-contentScript-contentScript__web-clipper-loading-box--fHTwh .web-clipper-loading .line { animation: 1s ease-in-out 0s infinite normal none running src-service-contentScript-browser-contentScript-contentScript__expand--31ZFO; border-radius: 10px; display: inline-block; transform-origin: center center; margin: 0px 3px; width: 1px; height: 25px; }
+
+.src-service-contentScript-browser-contentScript-contentScript__web-clipper-loading-box--fHTwh .web-clipper-loading .line:nth-child(1) { background: rgb(39, 174, 96); }
+
+.src-service-contentScript-browser-contentScript-contentScript__web-clipper-loading-box--fHTwh .web-clipper-loading .line:nth-child(2) { animation-delay: 180ms; background: rgb(241, 196, 15); }
+
+.src-service-contentScript-browser-contentScript-contentScript__web-clipper-loading-box--fHTwh .web-clipper-loading .line:nth-child(3) { animation-delay: 360ms; background: rgb(230, 126, 34); }
+
+.src-service-contentScript-browser-contentScript-contentScript__web-clipper-loading-box--fHTwh .web-clipper-loading .line:nth-child(4) { animation-delay: 540ms; background: rgb(41, 128, 185); }
+
+@keyframes src-service-contentScript-browser-contentScript-contentScript__expand--31ZFO { 
+  0% { transform: scale(1); }
+  25% { transform: scale(2); }
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+:where(.css-1q3a9c7).ant-layout { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 14px; box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout::before, :where(.css-1q3a9c7).ant-layout::after { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout [class^="ant-layout"], :where(.css-1q3a9c7).ant-layout [class*=" ant-layout"] { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout [class^="ant-layout"]::before, :where(.css-1q3a9c7).ant-layout [class*=" ant-layout"]::before, :where(.css-1q3a9c7).ant-layout [class^="ant-layout"]::after, :where(.css-1q3a9c7).ant-layout [class*=" ant-layout"]::after { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout { display: flex; flex: 1 1 auto; flex-direction: column; min-height: 0px; background: rgb(0, 0, 0); }
+
+:where(.css-1q3a9c7).ant-layout, :where(.css-1q3a9c7).ant-layout * { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout.ant-layout-has-sider { flex-direction: row; }
+
+:where(.css-1q3a9c7).ant-layout.ant-layout-has-sider > .ant-layout, :where(.css-1q3a9c7).ant-layout.ant-layout-has-sider > .ant-layout-content { width: 0px; }
+
+:where(.css-1q3a9c7).ant-layout .ant-layout-header, :where(.css-1q3a9c7).ant-layout.ant-layout-footer { flex: 0 0 auto; }
+
+:where(.css-1q3a9c7).ant-layout-rtl { direction: rtl; }
+
+:where(.css-1q3a9c7).ant-layout-header { height: 64px; padding: 0px 50px; color: rgb(255, 255, 255); line-height: 64px; background: rgb(0, 21, 41); }
+
+:where(.css-1q3a9c7).ant-layout-header .ant-menu { line-height: inherit; }
+
+:where(.css-1q3a9c7).ant-layout-footer { padding: 24px 50px; color: rgb(255, 255, 255); font-size: 14px; background: rgb(0, 0, 0); }
+
+:where(.css-1q3a9c7).ant-layout-content { flex: 1 1 auto; color: rgb(255, 255, 255); min-height: 0px; }

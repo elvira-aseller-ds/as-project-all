@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+:where(.css-1q3a9c7).ant-layout-sider { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 14px; box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout-sider::before, :where(.css-1q3a9c7).ant-layout-sider::after { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout-sider [class^="ant-layout-sider"], :where(.css-1q3a9c7).ant-layout-sider [class*=" ant-layout-sider"] { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout-sider [class^="ant-layout-sider"]::before, :where(.css-1q3a9c7).ant-layout-sider [class*=" ant-layout-sider"]::before, :where(.css-1q3a9c7).ant-layout-sider [class^="ant-layout-sider"]::after, :where(.css-1q3a9c7).ant-layout-sider [class*=" ant-layout-sider"]::after { box-sizing: border-box; }
+
+:where(.css-1q3a9c7).ant-layout-sider { position: relative; min-width: 0px; background: rgb(0, 21, 41); transition: 0.2s, background; }
+
+:where(.css-1q3a9c7).ant-layout-sider-has-trigger { padding-bottom: 48px; }
+
+:where(.css-1q3a9c7).ant-layout-sider-right { order: 1; }
+
+:where(.css-1q3a9c7).ant-layout-sider .ant-layout-sider-children { height: 100%; margin-top: -0.1px; padding-top: 0.1px; }
+
+:where(.css-1q3a9c7).ant-layout-sider .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed { width: auto; }
+
+:where(.css-1q3a9c7).ant-layout-sider-zero-width .ant-layout-sider-children { overflow: hidden; }
+
+:where(.css-1q3a9c7).ant-layout-sider .ant-layout-sider-trigger { position: fixed; bottom: 0px; z-index: 1; height: 48px; color: rgb(255, 255, 255); line-height: 48px; text-align: center; background: rgb(0, 33, 64); cursor: pointer; transition: 0.2s; }
+
+:where(.css-1q3a9c7).ant-layout-sider .ant-layout-sider-zero-width-trigger { position: absolute; top: 64px; inset-inline-end: -40px; z-index: 1; width: 40px; height: 40px; color: rgb(255, 255, 255); font-size: 20px; display: flex; align-items: center; justify-content: center; background: rgb(0, 21, 41); border-radius: 0px 16px 16px 0px; cursor: pointer; transition: background 0.3s; }
+
+:where(.css-1q3a9c7).ant-layout-sider .ant-layout-sider-zero-width-trigger::after { position: absolute; inset: 0px; background: transparent; transition: 0.3s; content: ""; }
+
+:where(.css-1q3a9c7).ant-layout-sider .ant-layout-sider-zero-width-trigger:hover::after { background: rgba(255, 255, 255, 0.2); }
+
+:where(.css-1q3a9c7).ant-layout-sider .ant-layout-sider-zero-width-trigger-right { inset-inline-start: -40px; border-radius: 16px 0px 0px 16px; }
+
+:where(.css-1q3a9c7).ant-layout-sider-light { background: rgb(43, 43, 52); }
+
+:where(.css-1q3a9c7).ant-layout-sider-light .ant-layout-sider-trigger { color: rgb(255, 255, 255); background: rgb(43, 43, 52); }
+
+:where(.css-1q3a9c7).ant-layout-sider-light .ant-layout-sider-zero-width-trigger { color: rgb(255, 255, 255); background: rgb(43, 43, 52); border: 1px solid rgb(0, 0, 0); border-inline-start: 0px; }

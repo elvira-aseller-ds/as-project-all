@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+@keyframes css-1q3a9c7-antNoWrapperZoomBadgeOut { 
+  0% { transform: scale(1); }
+  100% { transform: scale(0); opacity: 0; }
+}

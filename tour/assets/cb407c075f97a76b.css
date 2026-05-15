@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+body { background-color: rgb(255, 255, 255); }
+
+@media (prefers-color-scheme: dark) {
+  body { background-color: rgb(43, 43, 52); }
+}

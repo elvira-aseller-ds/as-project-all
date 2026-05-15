@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.ag-overlay { inset: 0px; pointer-events: none; position: absolute; z-index: 2; }
+
+.ag-overlay-panel, .ag-overlay-wrapper { display: flex; height: 100%; width: 100%; }
+
+.ag-overlay-wrapper { align-items: center; flex: 0 0 auto; justify-content: center; text-align: center; }
+
+.ag-overlay-loading-wrapper { pointer-events: all; }
+
+.ag-overlay-loading-center { background: var(--ag-background-color); border: solid var(--ag-border-width) var(--ag-border-color); border-radius: var(--ag-border-radius); box-shadow: var(--ag-popup-shadow); padding: var(--ag-spacing); }

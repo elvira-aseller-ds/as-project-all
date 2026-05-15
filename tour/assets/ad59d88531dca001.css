@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+:where(.ag-theme-batchEditStyle-3) {
+  & .ag-cell-batch-edit { background-color: var(--ag-cell-batch-edit-background-color); color: var(--ag-cell-batch-edit-text-color); display: inherit; }
+  & .ag-row-batch-edit { background-color: var(--ag-row-batch-edit-background-color); color: var(--ag-row-batch-edit-text-color); }
+}

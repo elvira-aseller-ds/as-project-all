@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Inventory Tiles Tour</title>
+    <script>
+      // Defaults: language = en, theme = light.
+      // User override stored in localStorage['tour-lang'] and ['tour-theme'].
+      var lang = localStorage.getItem('tour-lang') || 'en';
+      var theme = localStorage.getItem('tour-theme') || 'light';
+      var name = 'step-0';
+      if (lang !== 'en') name += '-' + lang;
+      if (theme === 'light') name += '-light';
+      window.location.replace(name + '.html?step=0');
+    </script>
+  </head>
+  <body>
+    <p>Открываем тур…</p>
+  </body>
+</html>

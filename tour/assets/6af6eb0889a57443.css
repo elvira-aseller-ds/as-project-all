@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+:where(.css-119ou95)[class^="ant-avatar"], :where(.css-119ou95)[class*=" ant-avatar"] { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 14px; box-sizing: border-box; }
+
+:where(.css-119ou95)[class^="ant-avatar"]::before, :where(.css-119ou95)[class*=" ant-avatar"]::before, :where(.css-119ou95)[class^="ant-avatar"]::after, :where(.css-119ou95)[class*=" ant-avatar"]::after { box-sizing: border-box; }
+
+:where(.css-119ou95)[class^="ant-avatar"] [class^="ant-avatar"], :where(.css-119ou95)[class*=" ant-avatar"] [class^="ant-avatar"], :where(.css-119ou95)[class^="ant-avatar"] [class*=" ant-avatar"], :where(.css-119ou95)[class*=" ant-avatar"] [class*=" ant-avatar"] { box-sizing: border-box; }
+
+:where(.css-119ou95)[class^="ant-avatar"] [class^="ant-avatar"]::before, :where(.css-119ou95)[class*=" ant-avatar"] [class^="ant-avatar"]::before, :where(.css-119ou95)[class^="ant-avatar"] [class*=" ant-avatar"]::before, :where(.css-119ou95)[class*=" ant-avatar"] [class*=" ant-avatar"]::before, :where(.css-119ou95)[class^="ant-avatar"] [class^="ant-avatar"]::after, :where(.css-119ou95)[class*=" ant-avatar"] [class^="ant-avatar"]::after, :where(.css-119ou95)[class^="ant-avatar"] [class*=" ant-avatar"]::after, :where(.css-119ou95)[class*=" ant-avatar"] [class*=" ant-avatar"]::after { box-sizing: border-box; }
+
+:where(.css-119ou95).ant-avatar { box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-size: 14px; line-height: 1.57143; list-style: none; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; position: relative; display: inline-flex; justify-content: center; align-items: center; overflow: hidden; white-space: nowrap; text-align: center; vertical-align: middle; background: rgba(0, 0, 0, 0.25); border: 1px solid transparent; width: 32px; height: 32px; border-radius: 50%; }
+
+:where(.css-119ou95).ant-avatar-image { background: transparent; }
+
+:where(.css-119ou95).ant-avatar .ant-image-img { display: block; }
+
+:where(.css-119ou95).ant-avatar.ant-avatar-square { border-radius: 16px; }
+
+:where(.css-119ou95).ant-avatar.ant-avatar-icon { font-size: 18px; }
+
+:where(.css-119ou95).ant-avatar.ant-avatar-icon > .anticon { margin: 0px; }
+
+:where(.css-119ou95).ant-avatar-lg { width: 40px; height: 40px; border-radius: 50%; font-size: 14px; }
+
+:where(.css-119ou95).ant-avatar-lg.ant-avatar-square { border-radius: 16px; }
+
+:where(.css-119ou95).ant-avatar-lg.ant-avatar-icon { font-size: 24px; }
+
+:where(.css-119ou95).ant-avatar-lg.ant-avatar-icon > .anticon { margin: 0px; }
+
+:where(.css-119ou95).ant-avatar-sm { width: 24px; height: 24px; border-radius: 50%; font-size: 14px; }
+
+:where(.css-119ou95).ant-avatar-sm.ant-avatar-square { border-radius: 8px; }
+
+:where(.css-119ou95).ant-avatar-sm.ant-avatar-icon { font-size: 14px; }
+
+:where(.css-119ou95).ant-avatar-sm.ant-avatar-icon > .anticon { margin: 0px; }
+
+:where(.css-119ou95).ant-avatar > img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+:where(.css-119ou95).ant-avatar-group { display: inline-flex; }
+
+:where(.css-119ou95).ant-avatar-group .ant-avatar { border-color: rgb(255, 255, 255); }
+
+:where(.css-119ou95).ant-avatar-group > :not(:first-child) { margin-inline-start: -8px; }
+
+:where(.css-119ou95).ant-avatar-group-popover .ant-avatar + .ant-avatar { margin-inline-start: 4px; }

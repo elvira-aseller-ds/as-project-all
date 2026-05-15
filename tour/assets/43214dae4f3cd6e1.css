@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+html { -webkit-font-smoothing: antialiased; box-sizing: border-box; text-size-adjust: 100%; }
+
+*, ::before, ::after { box-sizing: inherit; }
+
+strong, b { font-weight: 700; }
+
+body { margin: 0px; color: rgba(0, 0, 0, 0.87); font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-size: 1rem; line-height: 1.5; letter-spacing: 0.00938em; background-color: rgb(255, 255, 255); }
+
+@media print {
+  body { background-color: rgb(255, 255, 255); }
+}
+
+body::backdrop { background-color: rgb(255, 255, 255); }

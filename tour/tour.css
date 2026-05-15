@@ -1,0 +1,261 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   ASeller Inventory Tiles — Tour Overlay
+   Брендовый цвет: #007bff (--color-action-primary)
+   ───────────────────────────────────────────────────────────────────────── */
+
+.tour-mask {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  pointer-events: none;
+  background: transparent;
+  transition: opacity 200ms ease;
+}
+/* Когда у шага нет spotlight — маска сама затемняет всю страницу */
+.tour-mask--no-spotlight { background: rgba(0, 16, 41, 0.7); }
+
+.tour-spotlight {
+  position: fixed;
+  z-index: 9999;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  /* Большая «дырка» в маске: всё снаружи затемнено, внутри — оригинальный пиксель */
+  box-shadow: 0 0 0 9999px rgba(0, 16, 41, 0.7);
+  pointer-events: none;
+  transition: all 240ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tour-tooltip {
+  position: fixed;
+  z-index: 10002;
+  background: #007bff;
+  color: #ffffff;
+  padding: 18px 22px 14px;
+  border-radius: 12px;
+  max-width: 380px;
+  min-width: 280px;
+  box-shadow: 0 6px 20px rgba(0, 16, 41, 0.18);
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+.tour-tooltip__title {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.13px;
+  padding-right: 24px;
+}
+.tour-tooltip__body {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  white-space: pre-line;
+}
+.tour-tooltip__close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: 0;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+}
+.tour-tooltip__close:hover { background: rgba(255, 255, 255, 0.15); color: #fff; }
+
+.tour-tooltip__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+.tour-tooltip__progress {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  font-variant-numeric: tabular-nums;
+}
+.tour-tooltip__progress-text { display: none; }
+.tour-tooltip__dots { display: flex; gap: 4px; }
+.tour-tooltip__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+.tour-tooltip__dot--active { background: #fff; width: 14px; border-radius: 3px; }
+
+.tour-tooltip__nav { display: flex; gap: 6px; }
+.tour-btn {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border: 0;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font: 500 13px/1 'Rubik', sans-serif;
+  cursor: pointer;
+  transition: background 100ms ease;
+}
+.tour-btn:hover { background: rgba(255, 255, 255, 0.28); }
+.tour-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.tour-btn--primary {
+  background: #fff;
+  color: #007bff;
+}
+.tour-btn--primary:hover { background: #f0f7ff; }
+
+.tour-tooltip__hint {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: ui-monospace, monospace;
+}
+
+/* ─── Final screen (step-completed overlay) ─────────────────────────── */
+.tour-final {
+  position: fixed;
+  inset: 0;
+  z-index: 10001;
+  background: rgba(0, 16, 41, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  backdrop-filter: blur(4px);
+}
+.tour-final__card {
+  background: #fff;
+  color: #001029;
+  padding: 40px 48px;
+  border-radius: 16px;
+  max-width: 480px;
+  text-align: center;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25);
+}
+.tour-final__icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+.tour-final__title {
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.tour-final__body {
+  margin: 0 0 28px;
+  color: rgba(0, 16, 41, 0.65);
+  line-height: 1.55;
+}
+.tour-final__actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tour-final__btn {
+  background: #007bff;
+  color: #fff;
+  border: 0;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font: 500 14px/1 'Rubik', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 100ms ease;
+}
+.tour-final__btn:hover { background: #2997ff; }
+.tour-final__btn:disabled {
+  background: rgba(0, 123, 255, 0.4);
+  cursor: not-allowed;
+}
+.tour-final__btn:disabled:hover { background: rgba(0, 123, 255, 0.4); }
+.tour-final__email {
+  width: 100%;
+  margin: 0 0 24px;
+  padding: 12px 14px;
+  border: 1px solid rgba(0, 16, 41, 0.16);
+  border-radius: 8px;
+  font: 14px/1.4 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #001029;
+  background: #fff;
+  box-sizing: border-box;
+  transition: border-color 100ms ease;
+}
+.tour-final__email::placeholder { color: rgba(0, 16, 41, 0.42); }
+.tour-final__email:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.18);
+}
+.tour-final__btn--ghost {
+  background: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+.tour-final__btn--ghost:hover { background: rgba(0, 123, 255, 0.08); }
+
+/* Hide overlay parts when tour is closed */
+body.tour-closed .tour-mask,
+body.tour-closed .tour-spotlight,
+body.tour-closed .tour-tooltip { display: none !important; }
+
+/* Tag / red-flag «pills» в ячейках таблицы — стабильно в обеих темах,
+   на случай если в snapshot’е нет соответствующих Antd CSS правил. */
+[class*="-tagsDynamic"] .ant-tag,
+[class*="-flagsDynamic"] .ant-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 8px;
+  margin: 1px 4px 1px 0;
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 16px;
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+[class*="-tagsDynamic"] .ant-tag .css-1todlao-tagTitle,
+[class*="-flagsDynamic"] .ant-tag .css-1todlao-tagTitle {
+  font-size: 11px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+/* «Открыть тур» — плавающая кнопка в правом нижнем углу после close() */
+.tour-reopen-btn {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 10001;
+  background: #007bff;
+  color: #fff;
+  border: 0;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font: 500 14px/1 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 16, 41, 0.25);
+  transition: background 100ms ease, transform 100ms ease;
+}
+.tour-reopen-btn:hover { background: #2997ff; transform: translateY(-1px); }

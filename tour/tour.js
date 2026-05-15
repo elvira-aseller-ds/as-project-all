@@ -111,7 +111,25 @@
     setTimeout(function () { emailInput.focus(); }, 50);
     function startTour() {
       if (startBtn.disabled) return;
-      try { localStorage.setItem('tour-email', emailInput.value.trim()); } catch (e) {}
+      const email = emailInput.value.trim();
+      try { localStorage.setItem('tour-email', email); } catch (e) {}
+      // Отправляем заявку на ceo@amzwork.space через Formsubmit.co.
+      // Fire-and-forget: не блокируем переход на step-1 — если запрос
+      // упадёт, юзер всё равно зайдёт в тур, а ошибка осядет в console.
+      try {
+        fetch('https://formsubmit.co/ajax/ceo@amzwork.space', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({
+            email: email,
+            language: lang,
+            theme: isLightTheme ? 'light' : 'dark',
+            _subject: 'Demo request from seller.exchange tour',
+            _template: 'table',
+            _captcha: 'false',
+          }),
+        }).catch(function (e) { console.warn('[tour] Formsubmit POST failed:', e); });
+      } catch (e) { console.warn('[tour] Formsubmit init failed:', e); }
       const url = new URL(pageForVariant(STEPS[1].page), window.location.href);
       url.searchParams.set('step', '1');
       window.location.href = url.toString();
@@ -316,6 +334,22 @@
       }
       (zEl || el).style.zIndex = '10001';
     });
+  }
+
+  // Steps 15/16 — в snapshot’е `.ant-modal` зафиксирован inline-стилем
+  // `left: 584.859px; top: 141.844px` (под viewport ~1920px). На других
+  // экранах модалка уезжает вбок — переcчитываем центр под текущий viewport.
+  function centerModalIfNeeded() {
+    if (!step.centerModal) return;
+    const modal = document.querySelector(step.centerModal);
+    if (!modal) return;
+    const r = modal.getBoundingClientRect();
+    const w = r.width || parseFloat(modal.style.width) || 800;
+    const h = r.height || 600;
+    modal.style.position = 'fixed';
+    modal.style.margin = '0';
+    modal.style.left = Math.max(20, (window.innerWidth - w) / 2) + 'px';
+    modal.style.top = Math.max(20, (window.innerHeight - h) / 2) + 'px';
   }
 
   // Step 11 — popover с метриками в snapshot’е стоит на фиксированной
@@ -532,6 +566,7 @@
   fixPopoverIfNeeded();
   fixDropdownIfNeeded();
   pinPopoverIfNeeded();
+  centerModalIfNeeded();
   applyExtraHighlights();
   requestAnimationFrame(position);
   setTimeout(position, 50);

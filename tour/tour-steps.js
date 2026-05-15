@@ -129,11 +129,11 @@ window.TOUR_STEPS = [
     tooltip: { placement: 'right', offsetX: 16 },
   },
 
-  // 13 — Сохранение пресета.
+  // 13 — Сохранение пресета: tooltip слева, чтобы не закрывал поле ввода.
   {
     page: 'step-8.html',
     spotlight: '.ant-dropdown [class*="-flexRow"]:last-of-type',
-    tooltip: { placement: 'right', offsetX: 16 },
+    tooltip: { placement: 'left', offsetX: -16 },
   },
 
   // 14 — Управление пресетом: tooltip слева, чтобы не перекрывал само меню.
@@ -143,17 +143,20 @@ window.TOUR_STEPS = [
     tooltip: { placement: 'left', offsetX: -16 },
   },
 
-  // 15 — Метрики плитки.
+  // 15 — Метрики плитки: модалка центрируется в текущий viewport
+  // (в snapshot’е left/top захардкожены под 1920px).
   {
     page: 'step-9.html',
     spotlight: '.ant-modal-content',
+    centerModal: '.ant-modal',
     tooltip: { placement: 'right', offsetX: 16 },
   },
 
-  // 16 — Скрытые метрики.
+  // 16 — Скрытые метрики: то же центрирование модалки.
   {
     page: 'step-10.html',
     spotlight: '.ant-modal-content',
+    centerModal: '.ant-modal',
     tooltip: { placement: 'right', offsetX: 16 },
   },
 ];

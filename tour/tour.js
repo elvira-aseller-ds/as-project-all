@@ -19,8 +19,8 @@
   const I18N = (window.TOUR_I18N || {});
 
   // ── Variant detection (theme + language) from URL path ──────────────
-  // Pattern: step-N[-uk][-light].html  (lang suffix before theme suffix)
-  const pathMatch = window.location.pathname.match(/(step-\d+)(-uk)?(-light)?\.html$/);
+  // Pattern: step-N[-uk][-light][.html]  (Cloudflare Pages обрезает .html → делаем его опциональным)
+  const pathMatch = window.location.pathname.match(/(step-\d+)(-uk)?(-light)?(?:\.html)?$/);
   const isLightTheme = !!(pathMatch && pathMatch[3]);
   const lang = (pathMatch && pathMatch[2]) ? 'uk' : 'en';
   const _initialParams = new URLSearchParams(window.location.search);
@@ -59,7 +59,7 @@
   function applyVariantToPath(to) {
     // Заменяет step-N[-uk][-light].html в строке `to` на текущий вариант,
     // сохраняя ?query, если он есть.
-    return to.replace(/(step-\d+)((?:-uk)?(?:-light)?)\.html/, function (m, base) {
+    return to.replace(/(step-\d+)((?:-uk)?(?:-light)?)(?:\.html)?(?=\?|#|$|\/)/, function (m, base) {
       let s = '';
       if (lang !== 'en') s += '-' + lang;
       if (isLightTheme) s += '-light';
@@ -659,7 +659,7 @@
   }
 
   function toggleTheme() {
-    const m = window.location.pathname.match(/(step-\d+)(-uk)?(-light)?\.html$/);
+    const m = window.location.pathname.match(/(step-\d+)(-uk)?(-light)?(?:\.html)?$/);
     if (!m) return;
     const stepBase = m[1], langSuf = m[2] || '', isLightCur = !!m[3];
     const newLightSuf = isLightCur ? '' : '-light';
@@ -671,7 +671,7 @@
   }
 
   function toggleLanguage() {
-    const m = window.location.pathname.match(/(step-\d+)(-uk)?(-light)?\.html$/);
+    const m = window.location.pathname.match(/(step-\d+)(-uk)?(-light)?(?:\.html)?$/);
     if (!m) return;
     const stepBase = m[1], isUkCur = !!m[2], lightSuf = m[3] || '';
     const newLangSuf = isUkCur ? '' : '-uk';

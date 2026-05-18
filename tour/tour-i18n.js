@@ -4,7 +4,14 @@ window.TOUR_I18N = {
     "welcome": {
       "title": "Interactive Unit Analytics Tour",
       "body": "Explore the Inventory analytics workspace and learn how unit metrics, forecasting, presets, and product insights help you make faster operational and purchasing decisions.",
-      "emailPlaceholder": "What’s your business email?"
+      "emailPlaceholder": "What’s your business email?",
+      "privacyLink": "Privacy Policy",
+      "cookieLink": "Cookie Policy",
+      "legalSeparator": " · ",
+      "privacyTitle": "Privacy Policy",
+      "privacyBody": "We collect limited personal data such as name, email address, company information, and basic usage data when you visit our website, submit forms, or request a demo. Personal data is processed in accordance with the <b>EU General Data Protection Regulation (GDPR)</b> and applicable US privacy laws.<br><br>We use this data to operate and improve our services, communicate with you, and ensure website security. Data may be processed by trusted third-party providers acting on our behalf. You have the right to access, correct, or delete your personal data, and to withdraw consent at any time by contacting <b>support@aseller.io</b>.",
+      "cookieTitle": "Cookie Policy",
+      "cookieBody": "We use a minimal set of cookies and local browser storage to keep your tour experience working: language and theme preferences, the email you enter when requesting a demo, and which step of the tour you are on. We do not set third-party analytics or advertising cookies on this tour.<br><br>You can clear this data at any time by clearing site storage for this domain in your browser settings. Questions about data handling: <b>support@aseller.io</b>."
     },
     "steps": [
       {
@@ -90,7 +97,14 @@ window.TOUR_I18N = {
     "welcome": {
       "title": "Інтерактивне знайомство з юніт-аналітикою",
       "body": "Ознайомтеся з аналітичним простором Інвентарю та дізнайтеся, як метрики, прогнозування, пресети й показники продуктів допомагають швидше приймати операційні та закупівельні рішення.",
-      "emailPlaceholder": "Ваш робочий e-mail"
+      "emailPlaceholder": "Ваш робочий e-mail",
+      "privacyLink": "Політика конфіденційності",
+      "cookieLink": "Файли cookie",
+      "legalSeparator": " · ",
+      "privacyTitle": "Політика конфіденційності",
+      "privacyBody": "Ми збираємо обмежені персональні дані: ім’я, e-mail, інформацію про компанію та базові дані використання — коли ви відвідуєте сайт, заповнюєте форми або запитуєте демо. Персональні дані обробляються відповідно до <b>Загального регламенту захисту даних ЄС (GDPR)</b> і відповідних законів США про конфіденційність.<br><br>Ми використовуємо ці дані для надання та покращення наших сервісів, комунікації з вами та забезпечення безпеки сайту. Дані можуть оброблятися перевіреними третіми сторонами, які діють від нашого імені. Ви маєте право отримати доступ до своїх персональних даних, виправити чи видалити їх, а також відкликати згоду в будь-який час, звернувшись за адресою <b>support@aseller.io</b>.",
+      "cookieTitle": "Файли cookie",
+      "cookieBody": "Ми використовуємо мінімальний набір файлів cookie та локального сховища браузера, щоб тур працював: налаштування мови й теми, e-mail, який ви вводите під час запиту демо, та поточний крок туру. Сторонні аналітичні чи рекламні cookie в цьому турі не встановлюються.<br><br>Ви можете очистити ці дані в будь-який час, очистивши сховище сайту в налаштуваннях браузера. Питання щодо обробки даних: <b>support@aseller.io</b>."
     },
     "steps": [
       {

@@ -91,6 +91,11 @@
         <h2 class="tour-final__title"></h2>
         <p class="tour-final__body"></p>
         <input type="email" class="tour-final__email" autocomplete="email" required />
+        <div class="tour-final__legal">
+          <a href="#" class="tour-final__legal-link" data-legal="privacy"></a>
+          <span class="tour-final__legal-sep"></span>
+          <a href="#" class="tour-final__legal-link" data-legal="cookie"></a>
+        </div>
         <div class="tour-final__actions">
           <button class="tour-final__btn" data-action="start" disabled></button>
         </div>
@@ -102,6 +107,40 @@
     emailInput.placeholder = welcomeText.emailPlaceholder || '';
     const startBtn = welcome.querySelector('[data-action="start"]');
     startBtn.textContent = tBtn.start || 'Start tour';
+    // Privacy / Cookie ссылки и overlay-ы.
+    const legalLinks = welcome.querySelectorAll('.tour-final__legal-link');
+    legalLinks[0].textContent = welcomeText.privacyLink || 'Privacy Policy';
+    legalLinks[0].setAttribute('data-legal', 'privacy');
+    legalLinks[1].textContent = welcomeText.cookieLink || 'Cookie Policy';
+    legalLinks[1].setAttribute('data-legal', 'cookie');
+    welcome.querySelector('.tour-final__legal-sep').textContent = welcomeText.legalSeparator || ' · ';
+    legalLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        openLegalOverlay(link.getAttribute('data-legal'));
+      });
+    });
+    function openLegalOverlay(kind) {
+      const titleKey = kind === 'cookie' ? 'cookieTitle' : 'privacyTitle';
+      const bodyKey  = kind === 'cookie' ? 'cookieBody'  : 'privacyBody';
+      const ov = document.createElement('div');
+      ov.className = 'tour-legal';
+      ov.innerHTML = `
+        <div class="tour-legal__card">
+          <button class="tour-legal__close" aria-label="Close">×</button>
+          <h3 class="tour-legal__title"></h3>
+          <div class="tour-legal__body"></div>
+        </div>
+      `;
+      ov.querySelector('.tour-legal__title').textContent = welcomeText[titleKey] || '';
+      ov.querySelector('.tour-legal__body').innerHTML = welcomeText[bodyKey] || '';
+      function close() { ov.remove(); document.removeEventListener('keydown', onKey, true); }
+      function onKey(e) { if (e.key === 'Escape') { e.stopPropagation(); close(); } }
+      ov.querySelector('.tour-legal__close').addEventListener('click', close);
+      ov.addEventListener('click', function (e) { if (e.target === ov) close(); });
+      document.addEventListener('keydown', onKey, true);
+      document.body.appendChild(ov);
+    }
     const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     function syncStartState() {
       startBtn.disabled = !emailRe.test(emailInput.value.trim());
@@ -211,13 +250,9 @@
   tooltip.querySelector('.tour-tooltip__title').textContent = stepText.title || '';
   tooltip.querySelector('.tour-tooltip__body').textContent = stepText.body || '';
 
-  // Progress dots
-  const dotsEl = tooltip.querySelector('.tour-tooltip__dots');
-  for (let i = 0; i < STEPS.length; i++) {
-    const d = document.createElement('span');
-    d.className = 'tour-tooltip__dot' + (i === currentIdx ? ' tour-tooltip__dot--active' : '');
-    dotsEl.appendChild(d);
-  }
+  // Прогресс — счётчик «N/Total» (welcome не считаем, поэтому total = STEPS.length-1).
+  const progressText = tooltip.querySelector('.tour-tooltip__progress-text');
+  progressText.textContent = currentIdx + '/' + (STEPS.length - 1);
 
   const prevBtn = tooltip.querySelector('[data-action="prev"]');
   const nextBtn = tooltip.querySelector('[data-action="next"]');

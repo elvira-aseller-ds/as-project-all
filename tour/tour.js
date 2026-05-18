@@ -295,10 +295,21 @@
   // Steps 5/12 — popover в snapshot’е либо display:none, либо позиционирован
   // через bottom: NNN от высоты body (она в HTML-снимке непредсказуема,
   // поэтому при текущем viewport-е элемент уезжает за пределы экрана).
-  // Принудительно делаем его видимым и якорим к плитке.
+  // В dark step-11.html присутствует ещё один inline-popover внутри
+  // `.as-inline-popover` плитки — его пропускаем (position:fixed внутри
+  // .sliderTrack с inline transform-ом ломает viewport-координаты), плюс
+  // скрываем, чтобы не было двух поповеров одновременно. Якорим body-level.
   function fixPopoverIfNeeded() {
     if (!step.popoverFix) return;
-    const pop = document.querySelector('.ant-popover-placement-top');
+    // Прячем inline-popover-ы (актуально для dark step-11.html).
+    document.querySelectorAll('.as-inline-popover').forEach(function (el) {
+      el.style.display = 'none';
+    });
+    // Берём первый popover, который НЕ внутри inline-обёртки = body-level.
+    let pop = null;
+    document.querySelectorAll('.ant-popover-placement-top').forEach(function (p) {
+      if (!pop && !p.closest('.as-inline-popover')) pop = p;
+    });
     if (!pop) return;
     pop.style.display = 'block';
     pop.style.position = 'fixed';
@@ -567,6 +578,9 @@
 
   // ── Final screen ────────────────────────────────────────────────────
   function showFinal() {
+    // Скрываем mask/spotlight/tooltip последнего шага — на Completed-экране
+    // должна остаться только Final-карточка.
+    if (root && root.parentNode) root.style.display = 'none';
     const final = document.createElement('div');
     final.className = 'tour-final';
     final.innerHTML = `

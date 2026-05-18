@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "as-project-all",
+  "compatibility_date": "2026-05-18",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "tour"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
